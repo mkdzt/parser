@@ -1,5 +1,3 @@
 package model
 
-import model.Currency
-
-data class Price(val currency: Currency, val wholePrice:Int, val meterPrice:Int)
+data class Price(val currency: String, val wholePrice:Int, val m2Price:Int, val dimension:String)

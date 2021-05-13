@@ -1,3 +1,5 @@
 package model
 
-data class Location (val region: Region, val city:String, val address: Address)
+import Coordinates
+
+data class Location (val region: String?, val city:String?, val address: Address?, val coordinates:Coordinates)

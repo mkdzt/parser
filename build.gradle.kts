@@ -13,8 +13,11 @@ repositories {
 }
 
 dependencies{
-    implementation("org.litote.kmongo:kmongo-coroutine:4.2.6")
-    implementation("org.litote.kmongo:kmongo:4.2.6")
+    implementation("io.ktor:ktor-client-core:1.5.4")
+    implementation("io.ktor:ktor-client-cio:1.5.4")
+    implementation("org.litote.kmongo:kmongo:4.2.7")
+    implementation("io.ktor:ktor-client-gson:1.5.4")
+    implementation ("com.google.code.gson:gson:2.8.6")
     implementation ("org.jsoup:jsoup:1.13.1")
 }
 
